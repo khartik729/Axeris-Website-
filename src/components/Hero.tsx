@@ -86,16 +86,16 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Floating cards - hidden on small screens */}
-          <div className="hidden sm:flex absolute top-4 right-4 z-[3] bg-white rounded-xl py-3.5 px-4.5 shadow-[0_20px_60px_rgba(0,0,0,0.15)] items-center gap-2.5 text-[0.82rem] font-medium" style={{ animation: "float 3s ease-in-out infinite" }}>
-            <div className="w-8 h-8 rounded-lg bg-[#ecfdf5] text-[#10b981] flex items-center justify-center text-[1rem]">✓</div>
-            Claim approved — safe
-          </div>
-          <div className="hidden sm:flex absolute bottom-4 left-4 z-[3] bg-white rounded-xl py-3.5 px-4.5 shadow-[0_20px_60px_rgba(0,0,0,0.15)] items-center gap-2.5 text-[0.82rem] font-medium" style={{ animation: "float 3s ease-in-out infinite 1.5s" }}>
-            <div className="w-8 h-8 rounded-lg bg-[#fef2f2] text-[#ef4444] flex items-center justify-center text-[1rem]">⚠</div>
-            Unsafe dose flagged
+            {/* Floating cards - hidden on small screens */}
+            <div className="hidden sm:flex absolute top-6 right-6 z-[3] bg-white rounded-xl py-3.5 px-4.5 shadow-[0_20px_60px_rgba(0,0,0,0.15)] items-center gap-2.5 text-[0.82rem] font-medium" style={{ animation: "float 3s ease-in-out infinite" }}>
+              <div className="w-8 h-8 rounded-lg bg-[#ecfdf5] text-[#10b981] flex items-center justify-center text-[1rem]">✓</div>
+              Claim approved — safe
+            </div>
+            <div className="hidden sm:flex absolute bottom-6 left-6 z-[3] bg-white rounded-xl py-3.5 px-4.5 shadow-[0_20px_60px_rgba(0,0,0,0.15)] items-center gap-2.5 text-[0.82rem] font-medium" style={{ animation: "float 3s ease-in-out infinite 1.5s" }}>
+              <div className="w-8 h-8 rounded-lg bg-[#fef2f2] text-[#ef4444] flex items-center justify-center text-[1rem]">⚠</div>
+              Unsafe dose flagged
+            </div>
           </div>
         </div>
       </div>
