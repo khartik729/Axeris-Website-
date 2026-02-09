@@ -30,7 +30,7 @@ export default function Hero() {
           </p>
 
           <div className="flex gap-3.5 flex-wrap" style={{ animation: "fadeInUp 0.6s ease 0.3s both" }}>
-            <Link href="https://github.com/axerisPro/Proto2.git" target="_blank" rel="noopener noreferrer" className="bg-[#0a0a0a] text-white py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 hover:bg-[#404040] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] transition-all">
+            <Link href="https://proto2-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-[#0a0a0a] text-white py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 hover:bg-[#404040] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] transition-all">
               Request Demo
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </Link>

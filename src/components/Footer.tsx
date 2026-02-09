@@ -50,7 +50,7 @@ export default function Footer() {
             <h5 className="text-[0.78rem] font-semibold uppercase tracking-[1.5px] text-white/40 mb-5">Contact</h5>
             <ul className="list-none space-y-3">
               <li><Link href="mailto:info@axeris.ai" className="text-[0.88rem] text-white/70 no-underline hover:text-white transition-colors">info@axeris.ai</Link></li>
-              <li><Link href="https://github.com/axerisPro/Proto2.git" target="_blank" rel="noopener noreferrer" className="text-[0.88rem] text-white/70 no-underline hover:text-white transition-colors">Request Demo</Link></li>
+              <li><Link href="https://proto2-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[0.88rem] text-white/70 no-underline hover:text-white transition-colors">Request Demo</Link></li>
               <li><Link href="#" className="text-[0.88rem] text-white/70 no-underline hover:text-white transition-colors">Book a Call</Link></li>
             </ul>
           </div>

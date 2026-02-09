@@ -27,7 +27,7 @@ export default function CTA() {
         </p>
         <div className="flex flex-col items-center gap-4">
           <Link
-            href="https://github.com/axerisPro/Proto2.git"
+            href="https://proto2-mocha.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white text-[#0a0a0a] py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 hover:bg-[#f0f0f0] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] transition-all"
