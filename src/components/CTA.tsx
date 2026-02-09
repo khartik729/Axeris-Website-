@@ -32,7 +32,7 @@ export default function CTA() {
             rel="noopener noreferrer"
             className="bg-white text-[#0a0a0a] py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 hover:bg-[#f0f0f0] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] transition-all"
           >
-            Request A Demo
+            Try Live Demo
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
           </Link>
           <span className="text-[0.82rem] text-white/30">No commitment required</span>

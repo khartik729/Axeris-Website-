@@ -31,7 +31,7 @@ export default function Hero() {
 
           <div className="flex gap-3.5 flex-wrap" style={{ animation: "fadeInUp 0.6s ease 0.3s both" }}>
             <Link href="https://proto2-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" className="bg-[#0a0a0a] text-white py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 hover:bg-[#404040] hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(0,0,0,0.15)] transition-all">
-              Request Demo
+              Try Live Demo
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
             </Link>
             <Link href="#problem" className="bg-transparent text-[#404040] py-3.5 px-8 rounded-full text-[0.95rem] font-semibold no-underline inline-flex items-center gap-2 border border-[#e4e4e4] hover:border-[#d1d1d1] hover:text-[#0a0a0a] hover:-translate-y-0.5 transition-all">

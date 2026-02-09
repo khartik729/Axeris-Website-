@@ -75,7 +75,7 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="bg-[#0a0a0a] text-white px-6 py-2.5 rounded-full text-[0.85rem] font-semibold no-underline hover:bg-[#404040] hover:-translate-y-px transition-all"
           >
-            Request Demo
+            Try Live Demo
           </Link>
         </div>
 
@@ -101,7 +101,7 @@ export default function Navbar() {
             <Link key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className="block py-2 text-[0.9rem] text-[#404040] no-underline">{item.label}</Link>
           ))}
           <Link href="https://proto2-mocha.vercel.app/" target="_blank" rel="noopener noreferrer" className="inline-block mt-3 bg-[#0a0a0a] text-white px-6 py-2.5 rounded-full text-[0.85rem] font-semibold no-underline">
-            Request Demo
+            Try Live Demo
           </Link>
         </div>
       )}
