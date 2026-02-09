@@ -15,7 +15,7 @@ export default function BuiltBy() {
             alt="Johns Hopkins University"
             width={160}
             height={90}
-            className="h-[44px] w-auto opacity-40 grayscale hover:opacity-70 transition-all duration-300"
+            className="h-[44px] w-auto opacity-70 grayscale hover:opacity-100 transition-all duration-300"
             style={{ objectFit: "contain" }}
           />
           <Image
@@ -23,7 +23,7 @@ export default function BuiltBy() {
             alt="Harvard University"
             width={85}
             height={100}
-            className="h-[34px] w-auto opacity-40 grayscale hover:opacity-70 transition-all duration-300"
+            className="h-[34px] w-auto opacity-70 grayscale hover:opacity-100 transition-all duration-300"
             style={{ objectFit: "contain" }}
           />
         </div>
