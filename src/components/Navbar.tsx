@@ -70,7 +70,9 @@ export default function Navbar() {
           <Link href="#why-axeris" className="text-[0.9rem] font-medium text-[#404040] hover:text-[#0a0a0a] no-underline transition-colors">Why Axeris</Link>
           <Link href="#team" className="text-[0.9rem] font-medium text-[#404040] hover:text-[#0a0a0a] no-underline transition-colors">Team</Link>
           <Link
-            href="#"
+            href="https://github.com/axerisPro/Proto2.git"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-[#0a0a0a] text-white px-6 py-2.5 rounded-full text-[0.85rem] font-semibold no-underline hover:bg-[#404040] hover:-translate-y-px transition-all"
           >
             Request Demo
@@ -98,7 +100,7 @@ export default function Navbar() {
           ].map((item) => (
             <Link key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className="block py-2 text-[0.9rem] text-[#404040] no-underline">{item.label}</Link>
           ))}
-          <Link href="#" className="inline-block mt-3 bg-[#0a0a0a] text-white px-6 py-2.5 rounded-full text-[0.85rem] font-semibold no-underline">
+          <Link href="https://github.com/axerisPro/Proto2.git" target="_blank" rel="noopener noreferrer" className="inline-block mt-3 bg-[#0a0a0a] text-white px-6 py-2.5 rounded-full text-[0.85rem] font-semibold no-underline">
             Request Demo
           </Link>
         </div>
