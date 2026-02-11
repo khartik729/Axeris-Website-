@@ -39,9 +39,6 @@ export default function Products() {
               <div className="p-6 flex-1 flex flex-col">
                 <h4 className="text-[1.05rem] font-semibold text-[#0a0a0a] mb-2">{p.title}</h4>
                 <p className="text-[0.85rem] text-[#737373] leading-[1.6] flex-1">{p.desc}</p>
-                <span className="inline-flex items-center gap-1.5 text-[0.82rem] font-semibold text-[#4f46e5] mt-4 group-hover:gap-2.5 transition-all">
-                  Learn More →
-                </span>
               </div>
             </Link>
           ))}

@@ -22,20 +22,20 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {[
             {
-              name: "Kareem Malhis",
-              image: "/team/kareem-malhis.jpg",
-              role: "Engineering",
-              school: "Johns Hopkins University",
-              field: "Electrical & Computer Engineering",
-              linkedin: "https://www.linkedin.com/in/kareem-malhis/",
-            },
-            {
               name: "Adan Eftekhari",
               image: "/team/adan-eftekhari.jpg",
               role: "Life Sciences & Policy",
               school: "Harvard University",
               field: "Biology & Econ",
               linkedin: "https://www.linkedin.com/in/adan-eftekhari/",
+            },
+            {
+              name: "Kareem Malhis",
+              image: "/team/kareem-malhis.jpg",
+              role: "Engineering",
+              school: "Johns Hopkins University",
+              field: "Electrical & Computer Engineering",
+              linkedin: "https://www.linkedin.com/in/kareem-malhis/",
             },
             {
               name: "Khartik Uppalapati",
