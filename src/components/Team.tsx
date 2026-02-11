@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useReveal } from "./useReveal";
 
 export default function Team() {
@@ -22,8 +23,7 @@ export default function Team() {
           {[
             {
               name: "Kareem Malhis",
-              initials: "KM",
-              bg: "#4f46e5",
+              image: "/team/kareem-malhis.jpg",
               role: "Engineering",
               school: "Johns Hopkins University",
               field: "Electrical & Computer Engineering",
@@ -31,8 +31,7 @@ export default function Team() {
             },
             {
               name: "Adan Eftekhari",
-              initials: "AE",
-              bg: "#10b981",
+              image: "/team/adan-eftekhari.jpg",
               role: "Life Sciences & Policy",
               school: "Harvard University",
               field: "Biology & Econ",
@@ -40,8 +39,7 @@ export default function Team() {
             },
             {
               name: "Khartik Uppalapati",
-              initials: "KU",
-              bg: "#f59e0b",
+              image: "/team/khartik-uppalapati.jpg",
               role: "Operations & Strategy",
               school: "",
               field: "Strategy & Operations",
@@ -49,11 +47,14 @@ export default function Team() {
             },
           ].map((member) => (
             <div key={member.role} className="reveal bg-white rounded-[20px] border border-[#e4e4e4] p-8 text-center hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(0,0,0,0.08)] transition-all duration-300">
-              <div
-                className="w-20 h-20 rounded-full mx-auto mb-5 flex items-center justify-center text-white text-[1.4rem] font-bold"
-                style={{ background: member.bg }}
-              >
-                {member.initials}
+              <div className="w-20 h-20 rounded-full mx-auto mb-5 overflow-hidden border-2 border-[#e4e4e4]">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  width={80}
+                  height={80}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <h4 className="text-[1.05rem] font-semibold text-[#0a0a0a] mb-1">{member.name}</h4>
               {member.school && <p className="text-[0.88rem] text-[#737373] mb-1">{member.school}</p>}
@@ -76,11 +77,14 @@ export default function Team() {
         {/* Advisor */}
         <div className="reveal max-w-[700px] mx-auto">
           <div className="bg-white rounded-[20px] border border-[#e4e4e4] p-8 flex items-center gap-6">
-            <div
-              className="w-16 h-16 min-w-[64px] rounded-full flex items-center justify-center text-white text-[1.2rem] font-bold"
-              style={{ background: "linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)" }}
-            >
-              ZG
+            <div className="w-16 h-16 min-w-[64px] rounded-full overflow-hidden border-2 border-[#e4e4e4]">
+              <Image
+                src="/team/ziad-ghanem.jpg"
+                alt="Ziad Ghanem"
+                width={64}
+                height={64}
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-0.5">
