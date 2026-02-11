@@ -21,24 +21,27 @@ export default function Team() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {[
             {
-              initials: "JH",
+              name: "Kareem Malhis",
+              initials: "KM",
               bg: "#4f46e5",
               role: "Engineering",
               school: "Johns Hopkins University",
               field: "Electrical & Computer Engineering",
             },
             {
-              initials: "HU",
+              name: "Adan Eftekhari",
+              initials: "AE",
               bg: "#10b981",
               role: "Life Sciences & Policy",
               school: "Harvard University",
-              field: "Biology & Government",
+              field: "Biology & Econ",
             },
             {
-              initials: "OS",
+              name: "Khartik Uppalapati",
+              initials: "KU",
               bg: "#f59e0b",
               role: "Operations & Strategy",
-              school: "Top-10 University Track",
+              school: "",
               field: "Strategy & Operations",
             },
           ].map((member) => (
@@ -49,8 +52,9 @@ export default function Team() {
               >
                 {member.initials}
               </div>
-              <h4 className="text-[1.05rem] font-semibold text-[#0a0a0a] mb-1">{member.role}</h4>
-              <p className="text-[0.88rem] text-[#4f46e5] font-medium mb-1">{member.school}</p>
+              <h4 className="text-[1.05rem] font-semibold text-[#0a0a0a] mb-1">{member.name}</h4>
+              <p className="text-[0.88rem] text-[#4f46e5] font-medium mb-1">{member.role}</p>
+              {member.school && <p className="text-[0.88rem] text-[#737373] mb-1">{member.school}</p>}
               <p className="text-[0.82rem] text-[#737373]">{member.field}</p>
             </div>
           ))}
